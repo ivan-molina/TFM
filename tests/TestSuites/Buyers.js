@@ -9,7 +9,6 @@ fixture('Prueba Tests')
 
 test('Buy Product', async t => {
     await t
-    .click(principal.samsungGalaxyTab);
-    await t
-    .expect((productSheet.productName).innerText).eql('Samsung Galaxy Tab');
+    .click(principal.samsungGalaxyTab)
+    .click(productSheet.addToCartButton);
 });
