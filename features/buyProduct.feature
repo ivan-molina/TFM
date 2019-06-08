@@ -1,7 +1,7 @@
 Feature: Sample Form
 
     As a user
-    I want to fill out the form
+    I want to buy product
     So that the company recieves my information
 
     Scenario: Form Submission - Required Fields Only
@@ -14,4 +14,4 @@ Feature: Sample Form
         And I edit "ivanmolmar@outlook.es" in the email field
         And I edit "paswordfalso123" in the message field on the submission form
         And I click the Sign In button
-        Then I see "John Doe" in the name field on the submission form
+        And I click Continue in delivery Information Screen
