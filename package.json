@@ -9,7 +9,7 @@
   "dependencies": {
     "gherkin-testcafe": "^2.3.0",
     "testcafe": "^1.1.3",
-    "testcafe-reporter-html": "^1.4.4",
+    "testcafe-reporter-html": "^1.4.6",
     "cucumber": "^5.1.0"
   },
   "devDependencies": {},
